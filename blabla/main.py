@@ -33,7 +33,7 @@ while len(numbers) < 5:
 
 print(len(numbers))'''
 
-text = ""
+'''text = ""
 while text != '/exit':
     text = input()
     if text == "/exit":
@@ -46,7 +46,13 @@ while text != '/exit':
         print(text)
     else:
         [x, y] = numbers
-        print(int(x) + int(y))
+        print(int(x) + int(y))'''
+
+
+string = "no clouds here to spy on pets"
+word = string[::5]
+sentence = word[::-1]
+print(sentence)
 
 
 

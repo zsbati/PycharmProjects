@@ -3,7 +3,7 @@ import random
 
 def game():
     words = ['python', 'java', 'kotlin', 'javascript']
-    word_to_guess = 'javascript'  # random.choice(words)
+    word_to_guess = random.choice(words)
     guess_set = set(word_to_guess)
     guesses = set()
     word_array = ['-' for i in word_to_guess]
