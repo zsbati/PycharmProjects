@@ -48,11 +48,14 @@ while text != '/exit':
         [x, y] = numbers
         print(int(x) + int(y))'''
 
-
 string = "no clouds here to spy on pets"
 word = string[::5]
 sentence = word[::-1]
 print(sentence)
 
 
+def concat(*args, sep=':'):
+    return sep.join(args)
 
+
+print(concat(1, 2, 3, sep=':'))

@@ -33,5 +33,32 @@ def regex_text(reg, text):  # calls regex_word
     return False
 
 
+def regex_check(reg, text):
+    if reg == '':
+        return True
+    if reg[0] == '^' and reg[-1] == '$':
+        new_reg = reg[1:-1]
+        if len(text) == len(new_reg):
+            return regex_text(new_reg, text)
+        else:
+            return False
+    if reg[0] != '^' and reg[-1] != '$':
+        return regex_text(reg, text)
+    if reg[0] == '^' and reg[-1] != '$':
+        new_reg = reg[1:]
+        if len(text) >= len(new_reg):
+            new_text = text[:len(new_reg)]
+            return regex_text(new_reg, new_text)
+        else:
+            return False
+    if reg[0] != '^' and reg[-1] == '$':
+        new_reg = reg[:-1]
+        if len(text) >= len(new_reg):
+            new_text = text[-len(new_reg):]
+            return regex_text(new_reg, new_text)
+        else:
+            return False
+
+
 a, b = input().split('|')
-print(regex_text(a, b))
+print(regex_check(a, b))
