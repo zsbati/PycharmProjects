@@ -60,5 +60,15 @@ def regex_check(reg, text):
             return False
 
 
+def regex_repetition(reg, text):
+    if reg.find('?') == -1 and reg.find('+') == -1 and reg.find('*') == -1:
+        return regex_check(reg, text)
+    if reg.find('?') != -1 and reg.find('+') == -1 and reg.find('*') == -1:
+        reg_1, reg_2 = reg.split('?')
+        new_reg_1 = reg_1 + reg_2
+        new_reg_2 = reg_1[:-1] + reg_2
+        return regex_check(new_reg_1, text) or regex_check(new_reg_2, text)
+
+
 a, b = input().split('|')
-print(regex_check(a, b))
+print(regex_repetition(a, b))
