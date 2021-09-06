@@ -2,11 +2,12 @@ import requests
 
 
 def talk(url):
-    r = requests.get(url)
-    if not r or not r.json():
-        print('Invalid quote resource!')
-    else:
+
+    try:
+        r = requests.get(url)
         print(r.json()['content'])
+    except Exception:
+        print('Invalid quote resource!')
 
 
 talk(input())

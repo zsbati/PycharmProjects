@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2690860-8bff-4afe-ae3c-9c191a89d379" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the title/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the title/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the title/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the title/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/What the File/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/What the File/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Scraper/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Web Scraper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web Scraper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/task/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/task/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/task/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper1/Web Scraper/Soup, Sweet Soup/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper1/Web Scraper/The Beautiful Soup Ingredients/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper1/Web Scraper/The Soup is Real/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper1/Web Scraper/Wanna Talk to the Internet/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper1/Web Scraper/What the File/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper1/Web Scraper/task/scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper1/Web Scraper/task/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper1/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper2/Web Scraper/Soup, Sweet Soup/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper2/Web Scraper/The Beautiful Soup Ingredients/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper2/Web Scraper/The Soup is Real/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper2/Web Scraper/Wanna Talk to the Internet/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper2/Web Scraper/What the File/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper2/Web Scraper/task/scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper2/Web Scraper/task/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Scraper2/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScraper/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScraper/.idea/WebScraper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScraper/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScraper/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScraper/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScraper/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScraper/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScraper/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nyenyenye/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nyenyenye/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nyenyenye/.idea/nyenyenye.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../nyenyenye/.idea/nyenyenye.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nyenyenye/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nyenyenye/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1xmElP2BNBcyqtldmAvlj63E5pj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web Scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web Scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web Scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2690860-8bff-4afe-ae3c-9c191a89d379" name="Changes" comment="" />
+      <created>1630952019286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630952019286</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
