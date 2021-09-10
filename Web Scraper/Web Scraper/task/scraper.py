@@ -7,20 +7,19 @@ def talk(url):
     r = ''
     file = open('source.html', 'wb')
 
-    try:
-        r = requests.get(url)
+    r = requests.get(url)
 
-    except Exception:
-        file.close()
+    soup = BeautifulSoup(r.content, 'html.parser')
+    articles = soup.find_all('article')
+    #for item in articles:
+    #print(type(item))
+    # print(item['body'])
+    # print(item.get_text().strip())
 
-    if r:
-        file.write(r.content)
-        print('Content saved.')
-        file.close()
-    else:
-        print('The URL returned ' + str(r.status_code) + '!')
+    print(soup.find_all('div', class_='articulo-cuerpo'))
 
+    print(articles[0].find('a').get_text().strip().replace(' ', '_'))
     file.close()
 
 
-talk(input('Input the URL:', ))
+talk('https://www.nature.com/nature/articles?sort=PubDate&year=2020&page=3')
