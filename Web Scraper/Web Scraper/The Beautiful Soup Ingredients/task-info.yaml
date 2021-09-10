@@ -74,5 +74,8 @@ files:
     \ == '__main__':\n    WebScraperTest().run_tests()\n"
   learner_created: false
 feedback_link: https://hyperskill.org/projects/145/stages/782/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 08 Sep 2021 19:04:39 UTC
+record: 2

@@ -1,13 +1,26 @@
 import requests
 
+from bs4 import BeautifulSoup
+
 
 def talk(url):
+    r = ''
+    file = open('source.html', 'wb')
 
     try:
         r = requests.get(url)
-        print(r.json()['content'])
+
     except Exception:
-        print('Invalid quote resource!')
+        file.close()
+
+    if r:
+        file.write(r.content)
+        print('Content saved.')
+        file.close()
+    else:
+        print('The URL returned ' + str(r.status_code) + '!')
+
+    file.close()
 
 
-talk(input())
+talk(input('Input the URL:', ))

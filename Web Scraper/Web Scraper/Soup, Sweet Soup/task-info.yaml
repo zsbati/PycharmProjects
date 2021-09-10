@@ -65,9 +65,9 @@ files:
                 if os.path.isdir(name) and name.startswith("Page_"):
                     shutil.rmtree(name)
 
-            return [TestCase(stdin="3\nResearch Highlight", attach=(3, "Research Highlight"), time_limit=0),
-                    TestCase(stdin="1\nNews & Views", attach=(1, "News & Views"), time_limit=0),
-                    TestCase(stdin="2\nNews Feature", attach=(2, "News Feature"), time_limit=0)]
+            return [
+                TestCase(stdin="1\nNews", attach=(1, "News"), time_limit=0),
+                TestCase(stdin="2\nNews Feature", attach=(2, "News Feature"), time_limit=0)]
 
         def check(self, reply, attach=None):
             n_pages, article_type = attach
@@ -79,7 +79,7 @@ files:
                     return CheckResult.wrong(f"Impossible to find directory {dirname}")
                 os.chdir(dirname)
                 txt_files = glob.glob("*.txt")
-                url = furl("https://www.nature.com/nature/articles").add({"page": str(i)})
+                url = furl("https://www.nature.com/nature/articles?sort=PubDate&year=2020").add({"page": str(i)})
                 article_links = scraper.get_article_links_of_type(url, article_type=article_type)
                 if len(txt_files) != len(article_links):
                     return CheckResult.wrong("A wrong number of files with articles was found in the directory {0}. \n"
