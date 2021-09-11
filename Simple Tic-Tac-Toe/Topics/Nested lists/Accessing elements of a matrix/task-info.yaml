@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# the variable M is already defined'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6943#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 5, in <module>
+        M = input()
+    EOFError: EOF when reading a line
+  time: Sat, 11 Sep 2021 15:43:22 UTC
+record: -1

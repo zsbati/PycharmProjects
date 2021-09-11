@@ -15,6 +15,9 @@ def talk(url):
     #print(type(item))
     # print(item['body'])
     # print(item.get_text().strip())
+    body = soup.find_all('div', class_='articulo-cuerpo')
+    x = body[0].find_all('p')
+    print(x)
 
     print(soup.find_all('div', class_='articulo-cuerpo'))
 
