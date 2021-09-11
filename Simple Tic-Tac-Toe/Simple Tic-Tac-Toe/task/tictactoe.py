@@ -60,7 +60,7 @@ def draw(array):
     print('---------')
 
 
-cells = '         '
+cells = '_________'
 
 draw(cells)
 
