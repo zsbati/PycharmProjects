@@ -1,0 +1,15 @@
+type: code
+custom_name: Match or not match?
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import re
+
+
+    def matched(template, string):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9474#comment
+status: Unchecked
+record: -1
