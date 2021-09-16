@@ -2,3 +2,4 @@ content:
 - Defaultdict and Counter
 - Regexps in Python
 - Escaping in regexps
+- Regexp sets and ranges
