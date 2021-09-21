@@ -6,6 +6,12 @@ files:
     #  You can experiment here, it won’t be checked
 
   learner_created: false
+- name: summer.py
+  visible: true
+  learner_created: true
+- name: animals.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/9481#comment
 status: Solved
 feedback:
