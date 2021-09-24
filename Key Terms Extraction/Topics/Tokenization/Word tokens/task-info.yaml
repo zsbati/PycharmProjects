@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/10370#comment
+feedback_link: https://hyperskill.org/learn/step/10368#comment
 status: Solved
 feedback:
   message: |-
@@ -12,5 +12,5 @@ feedback:
     [+] Test #3. OK
 
     3 of 3 test(s) passed.</html>
-  time: Thu, 23 Sep 2021 20:42:00 UTC
+  time: Thu, 23 Sep 2021 20:26:40 UTC
 record: -1

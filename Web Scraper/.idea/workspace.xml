@@ -5,14 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2690860-8bff-4afe-ae3c-9c191a89d379" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Modifying frequencies for better results/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Modifying frequencies for better results/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Modifying frequencies for better results/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Most frequent words/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Most frequent words/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Most frequent words/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Nouns are keywords/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Nouns are keywords/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Nouns are keywords/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Text preprocessing pipeline/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Text preprocessing pipeline/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Text preprocessing pipeline/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/key_terms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/news.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/test/news.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/The result of tokenization/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/The result of tokenization/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/The result of tokenization/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/The result of tokenization/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Word tokens/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Word tokens/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Word tokens/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Word tokens/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Tokenizing a particular sentence in the text/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Tokenizing a particular sentence in the text/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Tokenizing a particular sentence in the text/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Tokenizing a particular sentence in the text/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/course-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/course-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Animals/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Animals/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Input/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Input/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Travel/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Travel/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Scraper/task/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/task/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the title/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the title/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Caesar cipher/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Caesar cipher/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Chr() application/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Chr() application/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Ord() application/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Ord() application/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Printable/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Printable/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Bytes slices/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Bytes slices/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Decypher a message/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Decypher a message/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/To_bytes()/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/To_bytes()/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Zero bytes/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Zero bytes/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Animals/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Animals/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Input/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Input/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Solar system/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Solar system/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Travel/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Travel/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/What the File/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/What the File/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/What the File/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/What the File/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.scraper">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">

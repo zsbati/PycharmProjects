@@ -1,10 +1,8 @@
 from nltk.tokenize import regexp_tokenize
 from nltk.tokenize import sent_tokenize
 
-text = "Meet the Greens! They've got a big house on the outskirts of Leeds. There are 15 rooms in it."
+text = input()
+index = int(input())
+sentences = sent_tokenize(text)
 
-num = 2
-words = sent_tokenize(text)
-kutty = regexp_tokenize(text, r"[0-9A-z'\-]+")
-#print(regexp_tokenize(sentence, r"[0-9A-z'\-]+"))
-print(kutty)
+print(regexp_tokenize(sentences[index], "[A-z']+"))
