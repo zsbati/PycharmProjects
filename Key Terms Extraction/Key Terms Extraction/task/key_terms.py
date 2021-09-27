@@ -1,9 +1,11 @@
 # Write your code here
 from lxml import etree
+# import nltk
+# nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from collections import Counter
 
-xml_file = "news.xml"
+xml_file = open("news.xml", 'r')
 root = etree.parse(xml_file).getroot()
 
 articles = root[0]
@@ -14,8 +16,13 @@ for news in articles:
     texts.append(news[1].text)
 
 for i in range(len(titles)):
-    printout = titles[i] + ':'
+    print(titles[i] + ':')
     body = texts[i].lower()
-    words = word_tokenize(body)
+    words = sorted(word_tokenize(body), reverse=True)
     word_counter = Counter(words)
-    print(word_counter.most_common(5))
+    lst = word_counter.most_common(5)
+    keywords = ''
+    for item in lst:
+        keywords += ' ' + item[0]
+    print(keywords.strip())
+    print()

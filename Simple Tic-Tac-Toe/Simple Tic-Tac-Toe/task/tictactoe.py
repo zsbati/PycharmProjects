@@ -27,7 +27,7 @@ def check_columns(array):
     if array[0] == array[3] == array[6] and (array[0] == 'X' or array[0] == 'O'):
         winners.append(array[0])
     if array[1] == array[4] == array[7] and (array[1] == 'X' or array[1] == 'O'):
-        winners.append(array[3])
+        winners.append(array[1])
     if array[2] == array[5] == array[8] and (array[2] == 'X' or array[2] == 'O'):
         winners.append(array[2])
 
