@@ -461,5 +461,22 @@ files:
   visible: false
   learner_created: false
 feedback_link: https://hyperskill.org/projects/166/stages/860/implement#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: "Exception in test #1\n\nTraceback (most recent call last):\n  File \"\
+    .idea\\VirtualEnvironment\\lib\\site-packages\\hstest\\testing\\execution\\main_module_executor.py\"\
+    , line 33, in _invoke_method\n    runpy.run_module(\n  File \"Key Terms Extraction\\\
+    task\\key_terms.py\", line 19, in <module>\n    words = word_tokenize(body)\n\
+    \  File \".idea\\VirtualEnvironment\\lib\\site-packages\\nltk\\tokenize\\__init__.py\"\
+    , line 129, in word_tokenize\n    sentences = [text] if preserve_line else sent_tokenize(text,\
+    \ language)\n  File \".idea\\VirtualEnvironment\\lib\\site-packages\\nltk\\tokenize\\\
+    __init__.py\", line 106, in sent_tokenize\n    tokenizer = load(f\"tokenizers/punkt/{language}.pickle\"\
+    )\n  File \".idea\\VirtualEnvironment\\lib\\site-packages\\nltk\\data.py\", line\
+    \ 750, in load\n    opened_resource = _open(resource_url)\n  File \".idea\\VirtualEnvironment\\\
+    lib\\site-packages\\nltk\\data.py\", line 876, in _open\n    return find(path_,\
+    \ path + [\"\"]).open()\n  File \".idea\\VirtualEnvironment\\lib\\site-packages\\\
+    nltk\\data.py\", line 583, in find\n    raise LookupError(resource_not_found)\n\
+    LookupError: \n**********************************************************************\n\
+    \  Resource "
+  time: Mon, 27 Sep 2021 14:13:06 UTC
 record: -1

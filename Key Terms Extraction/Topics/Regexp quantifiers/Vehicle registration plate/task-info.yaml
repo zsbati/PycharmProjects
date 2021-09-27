@@ -6,11 +6,12 @@ files:
     import re
 
 
-    regex = ''
+    # put your regex in the variable template
+    template = ""
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/10148#comment
+feedback_link: https://hyperskill.org/learn/step/10360#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: Mon, 27 Sep 2021 14:52:18 UTC
+  time: Mon, 27 Sep 2021 15:41:31 UTC
 record: -1

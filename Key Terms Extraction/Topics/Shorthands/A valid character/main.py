@@ -1,5 +1,5 @@
 import re
 
-regex = r'[-\w ~]$'
-#char = input()
-#print(re.match(regex, char) is not None)
+regex = r'^[-\w_~]$'
+# char = input()
+# print(re.match(regex, ' ,') is not None)
