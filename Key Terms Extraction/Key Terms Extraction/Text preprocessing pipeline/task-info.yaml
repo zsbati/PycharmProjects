@@ -465,57 +465,8 @@ files:
   visible: false
   learner_created: false
 feedback_link: https://hyperskill.org/projects/166/stages/861/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    Keywords are found incorrectly in 10 of 10 news texts.
-    Keywords are found incorrectly in the following texts:
-
-    Brain Disconnects During Sleep:
-    New Portuguese skull may be an early relative of Neandertals:
-    Living by the coast could improve mental health:
-    Did you knowingly commit a crime? Brain scans could tell:
-    Computer learns to detect skin cancer more accurately than doctors:
-    US economic growth stronger than expected despite weak demand:
-    Microsoft becomes third listed US firm to be valued at $1tn:
-    Apple's Siri is a better rapper than you:
-    Netflix viewers like comedy for breakfast and drama at lunch:
-    Loneliness May Make Quitting Smoking Even Tougher:
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    Brain Disconnects During Sleep:
-    the of , . that
-
-    New Portuguese skull may be an early relative of Neandertals:
-    of the , in a
-
-    Living by the coast could improve mental health:
-    the to , . health
-
-    Did you knowingly commit a crime? Brain scans could tell:
-    the , . of a
-
-    Computer learns to detect skin cancer more accurately than doctors:
-    , the of . in
-
-    US economic growth stronger than expected despite weak demand:
-    the , in of to
-
-    Microsoft becomes third listed US firm to be valued at $1tn:
-    the . to , microsoft
-
-    Apple's Siri is a better rapper than you:
-    , . 's the and
-
-    Netflix viewers like comedy for breakfast and drama at lunch:
-    , the of . a
-
-    Loneliness May Make Quitting Smoking Even Tougher:
-    , to . the that
-  time: Mon, 27 Sep 2021 21:10:38 UTC
+  message: Congratulations!
+  time: Tue, 28 Sep 2021 19:07:49 UTC
 record: 2
