@@ -1,3 +1,7 @@
 content:
 - Theory
 - WordNet Lemmatization
+- Snowball Stemmer German
+- Snowball Stemmer English
+- Porter Stemmer
+- Lancaster Stemmer
