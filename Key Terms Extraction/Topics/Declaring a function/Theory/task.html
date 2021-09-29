@@ -26,7 +26,7 @@ b = multiply(a, 10)  # 150</code></pre>
 def lazy_func(param):
     pass</code></pre> 
   <p>When you choose to call <code class="language-python">lazy_func()</code> with an arbitrary value as its argument, nothing will happen. So <code class="language-python">pass</code> is just a placeholder, but at least your code will be valid with it.</p> 
-  <h2 style="text-align: center;">Parameters vs arguments</h2> 
+  <h5 style="text-align: center;">Parameters vs arguments</h5> 
   <p>It's not quite clear right now, what the parameters are, is it? In fact, parameters are just aliases for values, which can be passed to a function. Consider the following example:</p> 
   <pre><code class="language-python">def send_postcard(address, message):
     print("Sending a postcard to", address)
@@ -45,7 +45,7 @@ send_postcard("Piccadilly, London", "Hi, London!")
   <pre><code class="language-python">send_postcard("Big Ben, London")
 
 TypeError: send_postcard() missing 1 required positional argument: 'message'</code></pre> 
-  <h2 style="text-align: center;">Execution and return</h2> 
+  <h5 style="text-align: center;">Execution and return</h5> 
   <p>Our previous function only performed some actions, but it didn't have any <strong>return value</strong>. However, you might want to calculate something in a function and return the result at some point. Check the following example:</p> 
   <pre><code class="language-python">def celsius_to_fahrenheit(temps_c):
     temps_f = temps_c * 9 / 5 + 32
@@ -70,7 +70,7 @@ None</code></pre>
    <strong>more</strong> than one return statement? Then the execution will end after the first one. Please, keep that in mind!
   </div>
   <p></p> 
-  <h2>Summary</h2> 
+  <h5>Summary</h5> 
   <p>Thus, we've learned the syntax for declaring functions. Now you also know that:</p> 
   <ul> 
    <li>Parameters of a function are simply aliases, or placeholders for values that you will pass to them. Parameters are re-initialized every time you call the function. Inside the function, you have access to these values, which means you can perform calculations on them.</li> 

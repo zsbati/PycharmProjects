@@ -31,7 +31,7 @@ if pet == 'cat':
 elif pet == 'dog':
     print('Oh, you are a dog person. Woof!')</code></pre> 
   <p>In this example, it's possible to add an <strong>else </strong>statement to slightly expand a perspective, but it's not necessary if we are only interested in dogs and cats.</p> 
-  <h2 style="text-align: center;">Why elif and not if?</h2> 
+  <h5 style="text-align: center;">Why elif and not if?</h5> 
   <p>The last example probably made you wonder: why did we use <code class="language-python">elif</code> statement instead of just two <code class="language-python">if</code>statements? Wouldn't two <code class="language-python">if</code> statements be easier?</p> 
   <pre><code class="language-python">if pet == 'cat':
     print('Oh, you are a cat person. Meow!')
@@ -54,7 +54,7 @@ if animal in 'crow, dog, frog, pony':
 if animal in 'unicorn, pegasus, pony':
     print('This animal is a horse')</code></pre> 
   <p>With this distinction in mind, you'll be able to make your code more clear and less error-prone. Now, let's get back to studying <code class="language-python">elif</code> functionality. </p> 
-  <h2 style="text-align: center;">Multiple elifs and a decision tree</h2> 
+  <h5 style="text-align: center;">Multiple elifs and a decision tree</h5> 
   <p>There can be as many <strong>elif</strong> statements as you need, so your conditions can be very detailed. No matter how many <strong>elif </strong>statements you have, the syntax is always the same. The only difference is that we add more <strong>elifs</strong>:</p> 
   <pre><code class="language-python"># multiple elifs syntax
 if condition1:
@@ -80,7 +80,7 @@ else:
   <p>In this program, the message from the <strong>else </strong>block is printed for the light of any color except green, yellow and red for which we’ve written special messages.</p> 
   <p>Conditionals with multiple branches make a <strong>decision tree</strong>, in which a node is a Boolean expression and branches are marked with either <strong>True</strong> or <strong>False</strong>. The branch marked as True leads to the action that has to be executed, and the False branch leads to the next condition. The picture below shows such a decision tree of our example with traffic lights.</p> 
   <p><img alt="" height="398" src="https://ucarecdn.com/8f7d80be-494d-4599-85a9-c917d5b77cf7/" width="478"></p> 
-  <h2 style="text-align: center;">Nested elif statements</h2> 
+  <h5 style="text-align: center;">Nested elif statements</h5> 
   <p>Elif statements can also be <strong>nested</strong>, just like <strong>if-else</strong> statements. We can rewrite our example of traffic lights with nested conditionals:</p> 
   <pre><code class="language-python"># nested elifs example
 traffic_lights = "green, yellow, red"
@@ -96,7 +96,7 @@ if light in traffic_lights:
         print("Just wait.")
 else:
     print("No such traffic light color, do whatever you want")</code></pre> 
-  <h2>Summary</h2> 
+  <h5>Summary</h5> 
   <p>In this topic, we familiarized ourselves with elif-statement and learned when it might be helpful, how to use and nest it or make a decision tree with it. Since you have mastered the topic of conditionals, from now on you can make your program do what you want when you want it! </p>
  </body>
 </html>
