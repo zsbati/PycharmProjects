@@ -5,7 +5,7 @@
   <p>A list in Python may contain any objects as its elements, including other lists – they are called <strong>nested lists</strong>. Here are some examples of nested lists:</p> 
   <pre><code class="language-python">nested_letters  = ['a', 'b', ['c', 'd'], 'e']
 nested_numbers = [[1], [2], [3]]</code></pre> 
-  <h2>Accessing elements of nested lists</h2> 
+  <h5>Accessing elements of nested lists</h5> 
   <p>Like with regular lists, elements of a nested list can be accessed by indexes. Note that the nested list still counts as a single element in its parent list.</p> 
   <pre><code class="language-python">numbers = [1, [2, 3], 4]
 nested_numbers = numbers[1]
@@ -20,14 +20,14 @@ print(lists[1][1][0])   # 2</code></pre>
   <pre><code class="language-python">print(lists[1][1][0][1])  # TypeError: 'int' object is not subscriptable</code></pre> 
   <p>Just like when we try accessing an element that doesn't exist at the level that does exist:</p> 
   <pre><code class="language-python">print(lists[3])  # IndexError: list index out of range</code></pre> 
-  <h2>Matrices</h2> 
+  <h5>Matrices</h5> 
   <p>Nested lists are a convenient way to represent a matrix. For example, the matrix</p> 
   <p style="text-align: center;"><img alt="simple matrix" src="https://ucarecdn.com/46c9c04d-fe77-4a2c-a8d5-b54c39d62b7d/-/crop/80x77/20,0/-/preview/"></p> 
   <p>might be represented as:</p> 
   <pre><code class="language-python">M = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]</code></pre> 
   <p>Note that in such a list lengths of all nested lists must be the same, and they are equal to the dimension of the matrix.</p> 
   <p>When we want to extract an element from the matrix, e.g. element <em>M[1][2] = 6</em>, the first index selects the row, and the second index selects the column. However, as you know, it differs from mathematical representation in that numbering here starts from zero, rather than from one.</p> 
-  <h2>Nested list comprehension</h2> 
+  <h5>Nested list comprehension</h5> 
   <p>To iterate over nested lists, we can use <strong>nested list comprehensions</strong>. It is basically a combination of two or more list comprehensions and it is quite similar to nested "for" loops. To illustrate basic syntax for this kind of comprehension, let's consider an example.</p> 
   <p>Imagine a school as a list of classes that are, in turn, lists of students (their names).</p> 
   <pre><code class="language-python"># original list
@@ -67,7 +67,7 @@ for i in range(2):
   <pre><code class="language-python">matrix = [[0, 1, 2, 3, 4],
           [0, 1, 2, 3, 4]]</code></pre> 
   <p>It's important to bear in mind that shorter code does not imply better one, so you shouldn’t misuse list comprehension when working with nested lists.</p> 
-  <h2>Summary</h2> 
+  <h5>Summary</h5> 
   <p>To sum up, lists as such are a very useful type of container in Data Structures, and now you know how to store multiple inner lists inside an outer one, reach them, represent matrices with them, and use nested list comprehensions.</p>
  </body>
 </html>

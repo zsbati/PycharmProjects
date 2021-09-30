@@ -3,7 +3,7 @@
  <head></head>
  <body>
   <p>Functions have a flexible syntax in Python. We will find out what allows functions to accept a varying number of arguments and how to unpack iterable objects when calling a function.</p> 
-  <h2 style="text-align: center;">Multiple positional arguments</h2> 
+  <h5 style="text-align: center;">Multiple positional arguments</h5> 
   <p>You might be surprised by the fact that everything we've done before with functions limited us in some way. For example, if we don't specify the defaults for arguments, we will always have to pass the exact number of values into such a function. However, sometimes it's more convenient when the number of arguments varies. For example, if you are declaring a function that should find the sum of all values passed into it, you never know how many arguments a user might want to use. Let's start with a simple case and define a function with two parameters. It can be done as follows:</p> 
   <pre><code class="language-python">def add(a, b):
     return a + b</code></pre> 
@@ -44,7 +44,7 @@ Will Brienne of Tarth survive?</code></pre>
 
 print(recipe("meat", "fish"))               # meat or fish
 print(recipe("meat", "fish", sep=" and "))  # meat and fish</code></pre> 
-  <h2 style="text-align: center;">Unpacking in function calls</h2> 
+  <h5 style="text-align: center;">Unpacking in function calls</h5> 
   <p>The Python syntax enables us to pass all items from a sequence as individual positional arguments using <code class="language-python">*</code>. A single asterisk operator <em>unpacks </em>an iterable. Let's invoke the <code class="language-python">print()</code> function and see how it works:</p> 
   <pre><code class="language-python">print(*"fun")        # f u n
 print(*[5, 10, 15])  # 5 10 15</code></pre> 
@@ -63,7 +63,7 @@ large_numbers = [9999999, 1111111]
 print(add(*small_numbers))  # 6
 print(add(*large_numbers))  # 11111110</code></pre> 
   <p>This is a really powerful feature, as it allows you to conveniently handle an arbitrary number of values in your function.</p> 
-  <h2 style="text-align: center;">Summary</h2> 
+  <h5 style="text-align: center;">Summary</h5> 
   <p>Let's sum up what we discussed in the topic:</p> 
   <ul> 
    <li>A function with <code class="language-python">*args</code> can accept a changing number of <strong>positional </strong>arguments.</li> 

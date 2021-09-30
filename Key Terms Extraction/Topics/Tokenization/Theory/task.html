@@ -3,7 +3,7 @@
  <head></head>
  <body>
   <p>NLP includes a great variety of procedures. <strong>T</strong><strong>okenization </strong>is one of them. The main task is to split a given sequence of characters into units, called <strong>tokens</strong>. Tokens are usually represented by words, numbers, or punctuation marks. Sometimes, they can be represented by sentences or morphemes (word parts). Tokenization is the first step in text preprocessing, and it is a very important procedure; before carrying on with more sophisticated NLP procedures, we need to identify <em>words</em> that can help us interpret the meaning of texts.</p> 
-  <h2 style="text-align: center;">Some specific issues of tokenization</h2> 
+  <h5 style="text-align: center;">Some specific issues of tokenization</h5> 
   <p>The major issue of tokenization is choosing the right token. Let's analyze the example below. </p> 
   <p style="text-align: center;"><img alt="" height="101" src="https://ucarecdn.com/1480a5b3-9386-4972-88be-84914274566c/" width="520"></p> 
   <p>This example is rather trivial; we use whitespaces to split the sentence into tokens and get rid of that dot at the end. But sometimes the English language features less obvious cases. What should we do with the apostrophes or a string represented by a combination of numbers and letters? </p> 
@@ -11,7 +11,7 @@
   <p>What is the most suitable token for the example given above? Intuitively, we can say that the first option is what we should go for. Of course, the second option also makes sense as <em>we're</em> is the contraction for <em>we are</em>. All other options are also theoretically possible.</p> 
   <p>What if we speak about a city with a complex name, for example: <code class="language-python">"New York"</code> or <code class="language-python">["New", "York"]</code>?</p> 
   <p>As you can see, choosing the right token may be a tough task. There is no "right answer", so it makes sense to choose a tokenizer that, in your opinion, suits your purposes the best and carry on with it. Next, we will focus on the basics of tokenization in NLTK.</p> 
-  <h2 style="text-align: center;">Tokenization in NLTK</h2> 
+  <h5 style="text-align: center;">Tokenization in NLTK</h5> 
   <p>NLTK has a module <code class="language-python">tokenize</code> that consists of different <em>sub-modules</em>, the most significant of which we will overview in this section. The chart below contains sub-modules and the results they return. The first column contains the names of tokenizers. To import a particular one, use the construction <code class="language-python">from nltk.tokenize import &lt;tokenizer&gt;</code>. Here are some examples of importing:</p> 
   <pre><code class="language-python">from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize</code></pre> 
@@ -43,7 +43,7 @@ from nltk.tokenize import sent_tokenize</code></pre>
     </tr> 
    </tbody> 
   </table> 
-  <h2 style="text-align: center;">Word tokenization</h2> 
+  <h5 style="text-align: center;">Word tokenization</h5> 
   <p>First, let's create an example for further analysis. Imagine we have a string consisting of three sentences.</p> 
   <pre><code class="language-python">text = "I have got a cat. My cat's name is C-3PO. He's golden."</code></pre> 
   <p>Now let's have a look at each tokenization way from the table. Don't forget to import all of them in advance.</p> 
@@ -78,7 +78,7 @@ print(regexp_tokenize(text, "[0-9A-z'\-]+"))
 # ['I', 'have', 'got', 'a', 'cat', 'My', "cat's", 'name', 'is', 'C-3PO', "He's", 'golden']</code></pre> 
   <p>The pattern <code class="language-python">"[A-z]+"</code> in the first example above allows us to find all the words or letters, but it leaves aside integers and the punctuation. Because of that, all the possessive forms and the cat's name are split. The next pattern improves the search for tokens as the integers are added. It improves the search for the name of the cat, but it is not recognized the way it is optimal. The third pattern with an apostrophe also allows the tokenizer to find possessive forms. The last pattern includes the hyphen, so the name of the cat is recognized without mistakes.</p> 
   <p>You can see that obtaining tokens with the help of regular expressions can be flexible. We change the pattern in each case, and this allows us to get more precise results.</p> 
-  <h2 style="text-align: center;">Sentence tokenization</h2> 
+  <h5 style="text-align: center;">Sentence tokenization</h5> 
   <p>Finally, let's look at the <code class="language-python">sent_tokenize()</code> module. It splits the given string into sentences.</p> 
   <pre><code class="language-python">print(sent_tokenize(text))
 # ['I have got a cat.', "My cat's name is C-3PO.", "He's golden."]</code></pre> 
@@ -91,7 +91,7 @@ print(sent_tokenize(text_2))
   <pre><code class="language-python">text_3 = "The plot of the film is cool!!!!!!! but the characters leave much to be desired....i don't like them."
 print(sent_tokenize(text_3))
 # ['The plot of the film is cool!!!!!!!', "but the characters leave much to be desired....i don't like them."]</code></pre> 
-  <h2 style="text-align: center;">Conclusion</h2> 
+  <h5 style="text-align: center;">Conclusion</h5> 
   <p>To sum up, tokenization is a vitally important procedure for text preprocessing in NLP. In this topic we have learned:</p> 
   <ul> 
    <li>the main terms and difficulties of tokenization;</li> 

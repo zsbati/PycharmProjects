@@ -5,7 +5,7 @@
   <p>In this topic, we are going to learn more about text normalization, one of the steps of text preprocessing. Let's imagine that we have some text and want to count all instances of the verb <em>play</em>. Sounds easy, right? What about word forms like "<em>played"</em>, "<em>plays"</em>, or "<em>playing"</em>? They are all forms of one single verb. We can count them manually if our text is short, but with big data, it is just not possible. This is where <strong>text normalization</strong> (or <strong>word normalization) </strong>steps in. The main idea is to reduce different forms of one word to a single form. With this algorithm all forms like "<em>plays"</em>, "<em>playing"</em>, or "<em>played"</em> will be changed to "<em>play"</em>.</p> 
   <p>There are two approaches to text normalization: <strong>stemming</strong> and <strong>lemmatization</strong>. Both are widely used in information retrieval tasks, search engines, topic modeling, and other NLP applications. In the upcoming sections, we will discuss the differences between the approaches, as well as their implementations in the NLTK library.</p> 
   <p>Note that before stemming or lemmatization, it is better to tokenize your text and get rid of digits and punctuation marks. Otherwise, most algorithms will recognize "<em>play!"</em> not as "<em>play"</em>, but rather as an unknown word, so it will not be processed correctly.</p> 
-  <h2>Stemming</h2> 
+  <h5>Stemming</h5> 
   <p><strong>Stem </strong>is the most important part of the word, and other word parts (called <em>affixes) </em>are added to it. For instance, if we take the stem <em>play</em> and add the affix <em>-ed</em> to it, we get the past form of the verb<em> play</em>.</p> 
   <p>In the process of <strong>stemming</strong>, we remove all affixes to get a stem. Note that the result may not represent a real word and it is okay! For example, for the word "<em>ladies",</em> we may have "<em>ladi"</em>.</p> 
   <p>Let's see how to carry it out using NLTK. It has different algorithms for stemming and we will learn how to use them. First, we need to import the library:</p> 
@@ -43,7 +43,7 @@ lancaster.stem('generously' )  # gen
 lancaster.stem('dangerously')  # dang</code></pre> 
   <p>All stemmers are quite similar, but the original Porter stemmer and Snowball stemmer provide better results, while the Lancaster stemmer works faster. So, if you are working with really big text data and need to process it in a short time, use Lancaster Stemmer. If you need more accurate results — choose the Snowball or Porter stemmers.</p> 
   <p>You can learn more about the non-English stemmers available in NLTK <a target="_blank" href="https://www.nltk.org/api/nltk.stem.html#module-nltk.stem" rel="noopener noreferrer nofollow">on nltk.org</a>.</p> 
-  <h2>Lemmatization</h2> 
+  <h5>Lemmatization</h5> 
   <p>Now let's talk about <strong>lemmatization</strong>. Even though it may seem similar to stemming at first sight, there is a difference in how these algorithms work. Stemmers just remove affixes while <strong>lemmatizers</strong> are like people — they analyze the word, its context, its part of speech, and then give the answer. The result is always a real word in its dictionary form called a <strong>lemma</strong>. In general, lemmatizers rely on dictionaries (or corpora) when looking for lemmas.</p> 
   <p>To use lemmatizer from the NLTK library, you need to make sure that you have access to WordNet — you can do it by typing <code class="language-python">nltk.download('wordnet')</code>.</p> 
   <p><strong>WordNet</strong> is a large lexical database of the English language, which is used for lemmas in the NLTK lemmatizer. There is only one algorithm for lemmatization in NLTK.</p> 
@@ -83,7 +83,7 @@ lemmatizer.lemmatize('plays')             # play</code></pre>
    Note that part-of-speech tags must be the same as in the WordNet! If the tags you got in the result of POS-tagging do not correspond to the ones in the WordNet, you will need to convert them.
   </div>
   <p></p> 
-  <h2>Stemming vs. Lemmatization</h2> 
+  <h5>Stemming vs. Lemmatization</h5> 
   <p>What should you choose? The answer to this question mainly depends on the task and the language you are dealing with. There is no universal stemmer or lemmatizer for all languages — each language is unique and has specific rules. So you need to use different algorithms with different languages.</p> 
   <p>For some languages, both stemming and lemmatization give good results, but for others, it is better to opt for lemmatization. For instance, languages like Russian, Latin, Finnish, or Turkish have grammatical <strong>cases</strong>, meaning that words have different affixes depending on their role in a sentence. Here is an example from Latin: "<em>rēx respondit"</em> can be translated as "<em>the king replied"</em>, and <em>rēgis fīlia</em> — as "<em>the daughter of the king"</em>. Both these words, "<em>rēx"</em> and "<em>rēgis"</em>, are forms of the noun "<em>rēx"</em>, which stands for "<em>king".</em> Cutting off the affixes will give us two different forms, so it is better to apply lemmatization here. Of course, it is possible to use stemming for such languages, but the list of rules what affixes in which cases should be removed is going to be pretty long and complex.</p> 
   <p>Also, if you need to get valid words after text normalization, go for lemmatization. Sometimes, different forms of one word look completely different, and we just cannot write rules for them. For instance, in English, there are irregular verbs (<em>be</em> — <em>am</em>, <em>is</em>, <em>are</em>), plural forms of nouns (<em>goose</em> — <em>geese</em>, <em>mouse</em> — <em>mice</em>), and comparative and superlative adjectives (<em>bad</em> — <em>worse</em> — <em>the worst</em>). Lemmatizers will detect such cases and give the correct word as a result, while stemmers will not. You can see the example below:</p> 
@@ -132,7 +132,7 @@ lemmatizer.lemmatize('mice')             # mouse</code></pre>
     </tr> 
    </tbody> 
   </table> 
-  <h2>Other implementations</h2> 
+  <h5>Other implementations</h5> 
   <p>NLTK is not the only library that has implementations of text normalization algorithms. Below is a list of libraries where you can find implementations of text normalization for English:</p> 
   <ul> 
    <li><a target="_blank" href="https://pypi.org/project/hunspell/" rel="noopener noreferrer nofollow">Hunspell</a> (stemming);</li> 
@@ -141,7 +141,7 @@ lemmatizer.lemmatize('mice')             # mouse</code></pre>
    <li><a target="_blank" href="https://textblob.readthedocs.io/en/dev/quickstart.html" rel="noopener noreferrer nofollow">TextBlob</a> (lemmatization);</li> 
    <li><a target="_blank" href="https://github.com/clips/pattern/wiki/pattern-en" rel="noopener noreferrer nofollow">Pattern</a> (lemmatization).</li> 
   </ul> 
-  <h2>Summary</h2> 
+  <h5>Summary</h5> 
   <p>In this topic, we have learned about text preprocessing and the role of text normalization in it, the difference between two main approaches (stemming and lemmatization), and how to implement some algorithms using NLTK. Let's recap:</p> 
   <ul> 
    <li><strong>Text normalization</strong> is an important step of text preprocessing. It reduces various word forms to one single form.</li> 

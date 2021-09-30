@@ -3,7 +3,7 @@
  <head></head>
  <body>
   <p>In Python, strings and lists are quite similar. Firstly, they both pertain to <strong>sequences</strong>, although strings are limited to characters while lists can store data of different types. In addition, you can <strong>iterate </strong>both over strings and lists. However, sometimes you need to turn a string into a list or vice versa. Python has these kinds of tools. The methods that will help you to accomplish this task are <strong><code class="language-python">split()</code></strong>, <strong><code class="language-python">join()</code></strong>, and <strong><code class="language-python">splitlines()</code></strong>.</p> 
-  <h2 style="text-align: center;">Split a string</h2> 
+  <h5 style="text-align: center;">Split a string</h5> 
   <p>The <strong><code class="language-python">split()</code></strong> method divides a string into substrings by a <strong>separator</strong>. If the separator isn't given, whitespace is used as a default. The method returns a <strong>list</strong> of all the substrings and, notably, the separator itself is not included in any of the substrings.</p> 
   <pre><code class="language-python"># split example
 definition = input()  # 'Coin of the realm is the legal money of the country' 
@@ -35,7 +35,7 @@ definition.split("hi!")  # wrong separator
 print(name)     # Forrest
 print(surname)  # Gump</code></pre> 
   <p>It's pretty efficient when you know the exact number of input values. In case you don't, it's likely to result in <code class="language-python">ValueError</code> with a message telling you either that there are too many values to unpack or not enough of them. So keep that in mind!</p> 
-  <h2 style="text-align: center;">Join a list</h2> 
+  <h5 style="text-align: center;">Join a list</h5> 
   <p>The <strong><code class="language-python">join()</code></strong> method is used to create a string out of a collection of strings. However, its use has a number of limitations. First, the argument of the method must be an <strong>iterable object</strong> with strings as its elements. And second, the method must be applied to a <strong>separator</strong>: a string that will separate the elements in a resulting string object. See below the examples of that:</p> 
   <pre><code class="language-python">word_list  = ["dog", "cat", "rabbit", "parrot"]
 
@@ -49,7 +49,7 @@ print(surname)  # Gump</code></pre>
 
 str_list = ["1", "2", "3"]
 " ".join(str_list)  # "1 2 3"</code></pre> 
-  <h2 style="text-align: center;">Split multiple lines</h2> 
+  <h5 style="text-align: center;">Split multiple lines</h5> 
   <p>The <strong><code class="language-python">splitlines()</code></strong> method is similar to <strong><code class="language-python">split()</code></strong>, but it is used specifically to split the string by the line boundaries. There are many escape sequences that signify the end of the line, but the <code class="language-python">split()</code> method can only take one separator. So this is where the <strong><code class="language-python">splitlines()</code></strong> method comes in handy:</p> 
   <pre><code class="language-python"># splitlines example
 long_text = 'first line\nsecond line\rthird line\r\nfourth line'
@@ -68,7 +68,7 @@ sent = input()  # "Mary had a little lamb"
 new_sent = sent.lower().split()
 # ["mary", "had", "a", "little", "lamb"]</code></pre> 
   <p>But do not get carried away, because the length of a line should be no more than 79 characters, and we definitely do not want to break PEP 8!</p> 
-  <h2 style="text-align: center;">Summary</h2> 
+  <h5 style="text-align: center;">Summary</h5> 
   <p>We have learned how to convert strings to lists via the <code class="language-python">split()</code> and <code class="language-python">splitlines()</code> methods, and how to get strings back from lists via the <code class="language-python">join()</code> method. As a recap, consider the following:</p> 
   <ul> 
    <li>Splitting and joining methods <strong>do not change</strong> the original string.</li> 

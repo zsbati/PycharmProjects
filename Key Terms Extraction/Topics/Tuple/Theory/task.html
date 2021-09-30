@@ -3,7 +3,7 @@
  <head></head>
  <body>
   <p>By now, you definitely know how to handle a list, the most popular collection in Python. Now let's discover an equally useful data type — <strong>tuples</strong>. You should remember that they are almost identical to lists. What sets them apart is their <strong>immutability</strong>.</p> 
-  <h2>Define a tuple</h2> 
+  <h5>Define a tuple</h5> 
   <p>Since tuples cannot be changed, tuple creation is similar to opening a box of a fixed size, then putting several values into this box and sealing it. Once the box has been sealed, you cannot modify its size or content.</p> 
   <p>Use a pair of <strong>parentheses </strong>to define a tuple:</p> 
   <pre><code class="language-python">empty_tuple = ()
@@ -33,7 +33,7 @@ print(bakers_dozen == (12, 1))  # True
 # a tuple from a string
 sound = tuple('meow')
 print(sound)  # ('m', 'e', 'o', 'w')</code></pre> 
-  <h2>What can we do with tuples?</h2> 
+  <h5>What can we do with tuples?</h5> 
   <p>First, let's examine what characteristics lists and tuples have in common.</p> 
   <p>Both lists and tuples are <strong>ordered</strong>, that is, when passing elements to these containers, you can expect that their order will remain the same. Tuples are also indifferent to the nature of data stored in them, so you can <strong>duplicate values</strong> or <strong>mix different data types</strong>:</p> 
   <pre><code class="language-python">tiny_tuple = (0, 1, 0, 'panda', 'sloth')
@@ -61,14 +61,14 @@ print(capitals)  # ['Washington, D.C.', 'Brasília', 'Moscow']
 former_capitals = tuple(capitals)
 former_capitals[0] = 'Washington, D.C.'  # TypeError</code></pre> 
   <p>In the example above, we tried to update the tuple and it didn't end well. You can't add an item to a tuple or remove it from there (unless you delete the entire tuple). However, immutability has a positive side. We'll discuss it in the next section.</p> 
-  <h2>Immutability and its advantages</h2> 
+  <h5>Immutability and its advantages</h5> 
   <p>By this time, one question might have come to your mind: why use tuples when we have lists? Predictably, all answers conduce to immutability. Let's dwell on its upsides:</p> 
   <ul> 
    <li>Tuples are <strong>faster </strong>and <strong>more memory-efficient</strong> than lists. Whenever you need to work with large amounts of data, you should give it a thought. If you are not going to modify your data, perhaps you should decide on tuples.</li> 
    <li>A tuple can be used as a <strong>dictionary key</strong>, whereas lists as keys will result in <code class="language-python">TypeError</code>.</li> 
    <li>Last but not least, it's <strong>impossible to change</strong> by accident the data stored in a tuple. It may prove a safe and robust solution to some tasks.</li> 
   </ul> 
-  <h2>Summary</h2> 
+  <h5>Summary</h5> 
   <p>Those were the very basics of tuples in Python. Just like lists, tuples are <strong>ordered </strong>and <strong>iterable</strong>. Unlike lists, they are <strong>immutable</strong>. You'll learn more of tuple features in the next topics, now it's time to write your first programs with them!</p>
  </body>
 </html>

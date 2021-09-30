@@ -4,7 +4,7 @@
  <body>
   <p>We have already learned about sets and shorthands in regular expressions. Now it is time to learn another powerful feature that significantly contributes to the regexp flexibility. The metacharacters we are going to talk about are called <strong>quantifiers</strong>. Quantifiers always follow some other character (or a group of characters), and they are meant to specify the number of repetitions of this character in the string. So, quantifiers allow you to write not only fixed-length templates but also templates for strings of varying length. The indications for the required length of strings (the number of repetitions) can be both fixed or rough.</p> 
   <p>We already know one of the quantifiers, the question mark <code class="language-python">?</code>, which matches either one or zero occurrences of the preceding character. Let's see what other quantifiers we can use!</p> 
-  <h2>The plus quantifier</h2> 
+  <h5>The plus quantifier</h5> 
   <p>Let's start with, perhaps, the simplest and the most straightforward quantifier, the plus <code class="language-python">+</code> quantifier. The plus <code class="language-python">+</code> quantifier basically means "the preceding character should appear <em>one</em><strong> </strong>or <em>more </em>times". That is, it matches one or more occurrences of the preceding character in the string. Look at the example below:</p> 
   <pre><code class="language-python">template = "wo+w!"  # matches "wow!" with one or more 'o'
 re.match(template, "wow!")            # match: one 'o' character encountered
@@ -20,7 +20,7 @@ re.match(template, "Louis III")  # match
 re.match(template, "Louis XVI")  # match
 re.match(template, "Louis ")     # no match</code></pre> 
   <p>There is also a very similar quantifier with just a slightly different function: the asterisk <code class="language-python">*</code> quantifier. </p> 
-  <h2>The asterisk quantifier</h2> 
+  <h5>The asterisk quantifier</h5> 
   <p>The asterisk <code class="language-python">*</code> quantifier does almost the same thing, but the scope is a bit wider; it also matches the <em>absence </em>of the previous character. So, zero or more occurrences of a character are enough to match the combination of this character with the asterisk quantifier. </p> 
   <pre><code class="language-python">template = "go*d"
 re.match(template, "good")  # match: double 'o' occured
@@ -34,14 +34,14 @@ re.match(template, "no rest for the wicked")         # match: 'no' at the start 
 re.match(template, "I'm no superman")                # match: 'no' inside the string
 re.match(template, "— Luke, I'm your father. — no")  # match: 'no' at the end of the string</code></pre> 
   <p>In addition to the asterisk and the plus, there is another type of quantifier. Unlike the ones that we have just talked about, it allows us to indicate a specific number of repetitions that we want to find. </p> 
-  <h2>A fixed number of repetitions</h2> 
+  <h5>A fixed number of repetitions</h5> 
   <p>In case we want to match a fixed number of occurrences of a certain character, we can use curly brackets with a number inside them, just like that: <code class="language-python">{n}</code>. This quantifier matches exactly <em>n</em> consecutive occurrences of the preceding character. </p> 
   <pre><code class="language-python">template = "\w{5}"  # matches a sequence of exactly 5 alphanumeric characters
 re.match(template, "doggy")  # match: 5 letters sequence
 re.match(template, "dog")    # no match: there're only 3 alphanumeric characters
 re.match(template, "a dog")  # no match: space doesn't match \w</code></pre> 
   <p>As well as the aforementioned quantifiers, curly brackets quantifier (in all its forms which we're going to discuss now) can follow other metacharacters, such as the dot character or a set, for example. </p> 
-  <h2>A range of repetitions</h2> 
+  <h5>A range of repetitions</h5> 
   <p>The braces also serve for the designation of a specific <em>range </em>of the length of the sequence that we want to find. In its general form, this quantifier looks like two numbers put inside braces and separated by a comma: <code class="language-python">{n,m}</code>. The quantifier matches <em>at least n</em> and <em>no more</em> than <em>m </em>instances of the previous (quantified) character.</p> 
   <p></p>
   <div class="alert alert-warning">
@@ -83,7 +83,7 @@ re.match(template, "no digits")  # also match: the template matches an empty str
    <code class="language-python">"a{2, 3}"</code>, because the quantifier in the template is not working, it is broken by the space character. 
   </div>
   <p></p> 
-  <h2>Greedy and lazy quantifiers</h2> 
+  <h5>Greedy and lazy quantifiers</h5> 
   <p>By default, all quantifiers (<code class="language-python">+</code>, <code class="language-python">*</code>, <code class="language-python">{n,m}</code>, <code class="language-python">{n,}</code> or <code class="language-python">{,m}</code>, <code class="language-python">?</code>) are greedy. It means that they match as many instances of the previous character as possible. For example, when a template <code class="language-python">"a+"</code> is compared against a string <code class="language-python">"aaa"</code>, we have some kind of a dilemma — the regex engine can return any substring as the result of the match, <code class="language-python">"a"</code>, <code class="language-python">"aa"</code> or <code class="language-python">"aaa"</code>, since they all comply with the template. They consist of at least one <code class="language-python">a</code> character. But since our <code class="language-python">+</code> quantifier is greedy, it has no choice as it matches the longest possible substring, <code class="language-python">"aaa"</code>. The dilemma is resolved. </p> 
   <p>In some situations, this behavior may not be desired for your purposes. Suppose we want to find a pair of <code class="language-python">&lt;p&gt;</code> and <code class="language-python">&lt;/p&gt;</code> tags with some text in between them. We write a template <code class="language-python">&lt;p&gt;.*&lt;/p&gt;</code> to find such substring in a text filled with tags. See what happens there:</p> 
   <pre><code class="language-python">template = "&lt;p&gt;.*&lt;/p&gt;"
@@ -104,7 +104,7 @@ re.match(template, "&lt;p&gt;paragraph&lt;/p&gt;&lt;p&gt;another paragraph&lt;/p
    <code class="language-python">{,1}</code> quantifier.
   </div>
   <p></p> 
-  <h2>Summary</h2> 
+  <h5>Summary</h5> 
   <p>In this topic, we have learned about quantifiers in regular expressions. There are several quantifiers we need to remember:</p> 
   <ul> 
    <li>the plus <code class="language-python">+</code> quantifier matches one or more instances of the quantified character;</li> 
