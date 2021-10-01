@@ -21,3 +21,4 @@ content:
 - Text normalization
 - Tuple
 - Dictionary methods
+- Kwargs

@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import re
+
+    # define regex template
+    template = ''
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10041#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 30 Sep 2021 23:51:58 UTC
+record: -1
