@@ -23,3 +23,5 @@ content:
 - Dictionary methods
 - Kwargs
 - POS tagging
+- Math functions
+- Slicing

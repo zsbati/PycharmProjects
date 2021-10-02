@@ -11,12 +11,14 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
+nltk.download('averaged_perceptron_tagger')
+
 exclude = stopwords.words('english')
 
-#print(exclude)
+# print(exclude)
 
 points = list(string.punctuation)
-#print(points)
+# print(points)
 lemmatizer = WordNetLemmatizer()
 
 xml_file = open("news.xml", 'r')
@@ -36,8 +38,10 @@ for i in range(len(titles)):
     lemmatized = [lemmatizer.lemmatize(word) for word in tokenized]
     words = [word for word in lemmatized if word not in exclude]
     words = [word for word in words if word not in points]
-    words = sorted(words, reverse=True)
-    word_counter = Counter(words)
+    pos_words = nltk.pos_tag(words)
+    nouns = [word for word in words if nltk.pos_tag([word])[0][1] == 'NN']
+    nouns = sorted(nouns, reverse=True)
+    word_counter = Counter(nouns)
     lst = word_counter.most_common(5)
     keywords = ''
     for item in lst:
