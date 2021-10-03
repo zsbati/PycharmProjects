@@ -2,10 +2,15 @@ type: code
 files:
 - name: main.py
   visible: true
+  text: |-
+    import re
+
+
+    template = ''
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/8441#comment
+feedback_link: https://hyperskill.org/learn/step/10361#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: Sun, 03 Oct 2021 18:51:27 UTC
+  time: Sun, 03 Oct 2021 19:31:02 UTC
 record: -1

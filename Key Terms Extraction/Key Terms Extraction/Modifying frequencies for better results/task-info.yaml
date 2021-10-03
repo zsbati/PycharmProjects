@@ -190,9 +190,6 @@ files:
       </corpus>
     </data>
   learner_created: false
-- name: test/__init__.py
-  visible: false
-  learner_created: false
 - name: test/news.py
   visible: false
   text: |-
@@ -470,6 +467,9 @@ files:
     # nltk.download('punkt')
     text = "I have got a cat. My cat's name is C-3PO. He's golden."
     print(word_tokenize(text))
+  learner_created: false
+- name: test/__init__.py
+  visible: false
   learner_created: false
 feedback_link: https://hyperskill.org/projects/166/stages/863/implement#comment
 status: Unchecked
