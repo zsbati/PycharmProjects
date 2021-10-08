@@ -471,6 +471,21 @@ files:
 - name: test/__init__.py
   visible: false
   learner_created: false
+- name: wordFinder.py
+  visible: true
+  learner_created: true
+- name: words.txt
+  visible: true
+  learner_created: true
+- name: vectorizer
+  visible: true
+  learner_created: true
+- name: vectorizer.py
+  visible: true
+  learner_created: true
+- name: tfidf_score.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/166/stages/863/implement#comment
 status: Unchecked
 record: -1
