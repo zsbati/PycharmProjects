@@ -3,7 +3,7 @@
  <head></head>
  <body>
   <p>Imagine you are a student who is eager to study regional press news. If you collect every news piece manually, it will take plenty of time. Lucky for us, Python has some tools to offer to automate this process. <code class="language-python">beautifulsoup</code> is a library that helps you analyze the HTML and the XML syntax, create parse trees and extract necessary information. It also provides web scraping, a simple technique of getting data for further analysis. So, by combining basic operations in Python, <code class="language-python">requests</code>, and <code class="language-python">beautifulsoup</code> libraries, you can get all the texts and save precious time. Although it is possible to work with XML using the library, in this topic, we will focus on HTML.</p> 
-  <h2>Installation</h2> 
+  <h5>Installation</h5> 
   <p>To install <code class="language-python">beautifulsoup</code>, you need a Python package manager <em>pip</em>. </p> 
   <pre><code class="language-no-highlight">pip install beautifulsoup4</code></pre> 
   <p>Also, you need the <code class="language-python">requests</code><strong> </strong>library to send HTTP requests. It can also be installed using pip.</p> 
@@ -12,7 +12,7 @@
   <pre><code class="language-python">import requests
 
 from bs4 import BeautifulSoup</code></pre> 
-  <h2 style="text-align: center;">Getting started with web scraping</h2> 
+  <h5 style="text-align: center;">Getting started with web scraping</h5> 
   <p>First, we need to create a variable that will store the content of the page. To do so, use <code class="language-python">requests.get()</code> with a link as an attribute.</p> 
   <pre><code class="language-python">r = requests.get('https://newsineasyenglish.com/2018/05/13/air-pollution/')</code></pre> 
   <p>To check whether the page was downloaded successfully, you can use <code class="language-python">status_code</code>. If the returned code is <em>200</em>, there are no errors. If your code is <em>400 </em>or <em>500</em>, there are some difficulties with getting the page.</p> 
@@ -34,7 +34,7 @@ from bs4 import BeautifulSoup</code></pre>
 #    Air Pollution – News in Easy English
 #   &lt;/title&gt;
 #   ...</code></pre> 
-  <h2 style="text-align: center;">Searching for tags</h2> 
+  <h5 style="text-align: center;">Searching for tags</h5> 
   <p>As far as you can see, the content stored in the variable <code class="language-python">soup</code> is hard to follow, plus it contains a lot of unnecessary information that we do not need. Important data like texts or titles are often stored with particular tags. So, once you have decided which tags you need, there are two useful methods for finding these tags in your tree.</p> 
   <ul> 
    <li> <p><code class="language-python">find()</code> method returns <em>the first occurrence</em><strong> </strong>of the tag in the tree. This method is suitable if you are sure that your document has only one specific tag you need.</p> <pre><code class="language-python">p1 = soup.find('title')  
@@ -64,7 +64,7 @@ print(p3)  # [&lt;p style="text-align: justify;"&gt;The air has become very dirt
 # &lt;link target="_blank" href="https://gmpg.org/xfn/11" rel="profile"/&gt;
 # ...</code></pre> 
   <p>If there are several tags with the same name, the method will return only <em>the first occurrence</em>.</p> 
-  <h2 style="text-align: center;">Text and link extraction</h2> 
+  <h5 style="text-align: center;">Text and link extraction</h5> 
   <p>Now we know some basics of HTML and <code class="language-python">beautifulsoup</code>, it is time to extract all the necessary data. Earlier, we have learned to create a variable with lists of <code class="language-python">&lt;p&gt;</code> tags.</p> 
   <pre><code class="language-python">paragraphs = soup.find_all('p', {'style': 'text-align: justify;'})</code></pre> 
   <p>Now, to process all tags in this list, you can use For Loop for iteration and the <code class="language-python">text</code> method helps to get text data.</p> 
@@ -75,7 +75,7 @@ print(p3)  # [&lt;p style="text-align: justify;"&gt;The air has become very dirt
   <pre><code class="language-python">a = soup.find_all('a')
 for i in a:
     print(i.get('href'))  # https://newsineasyenglish.com/ ...</code></pre> 
-  <h2 style="text-align: center;">Summary</h2> 
+  <h5 style="text-align: center;">Summary</h5> 
   <p>In this topic, we have learned the main operations with <code class="language-python">beautifulsoup</code>:</p> 
   <ul> 
    <li>How to create a parse tree,</li> 

@@ -3,7 +3,7 @@
  <head></head>
  <body>
   <p>As we already know, a <code class="language-python">str</code> object is a sequence of characters. More than that, these are not just "some" characters: these are Unicode characters. Now it's time to introduce <code class="language-python">bytes</code>, a counterpart of the Python's string. As such, <code class="language-python">bytes</code> data type was introduced in Python 3, and it has a twofold nature: it represents usual strings, easily understandable by a human reader, in the form that makes them more suitable for processing by the computer. </p> 
-  <h2>Functions chr() and ord()</h2> 
+  <h5>Functions chr() and ord()</h5> 
   <p>To demonstrate the sophisticated nature of this data type, allow us to start from afar and introduce two Python functions: <code class="language-python">ord()</code> and <code class="language-python">chr()</code>. These are inverse functions that serve for converting Unicode characters to their respective code points — and vice versa. More precisely, <code class="language-python">ord()</code> accepts as an argument a string consisting of a single Unicode character, and returns an integer equal to the code point assigned to this character in the Unicode; <code class="language-python">chr()</code> in a similar manner allows you to convert an integer to the corresponding Unicode character.</p> 
   <p>In the following example you can see that 'a' symbol has a Unicode code point equal to 97:</p> 
   <pre><code class="language-python">a_character = 'a'
@@ -13,7 +13,7 @@ print(a_code)  # 97
 a_character = chr(a_code)
 print(a_character)  # 'a'</code></pre> 
   <p>By the way, <code class="language-python">ord()</code> works behind the scenes when you perform a <strong>comparison </strong>of two strings! Let's find out more in the next section.</p> 
-  <h2>String comparison</h2> 
+  <h5>String comparison</h5> 
   <p>In reality, that's the code points of these strings' characters that are being compared one by one. If the code point of the first character in the first string is bigger than the code point of the first character in the second string, then the first string is bigger than the second one.</p> 
   <pre><code class="language-python">a_character = 'a'
 one_character = '1'
@@ -32,7 +32,7 @@ print(aa_line &lt; ab_line)   # True
 # of the second character of ab_line is bigger than that of aa_line</code></pre> 
   <p>As you can see now, there's an easy way of representing string characters as numbers in Python. This is quite important since the computer doesn't know anything about Unicode and letters and symbols used by humans: to store and process information, a computer needs it to be in numeric form. The same applies to the information sent from one computer to another. </p> 
   <p>Therefore, Python has a special data type whose purpose is to represent strings as a sequence of numbers, and this data type is called <code class="language-python">bytes</code>. Now we are ready to take a closer look! </p> 
-  <h2>Getting familiar with bytes</h2> 
+  <h5>Getting familiar with bytes</h5> 
   <p>Any <code class="language-python">bytes</code>object is a sequence of integers representing single bytes. Each of these integers has a value <strong>between 0 and 255 </strong>(including 0 and 255), so there are 256 possible values, which is not arbitrary: each byte consists of 8 bits, and 2^8 is equal to 256. <code class="language-python">bytes</code> objects, as well as strings, are <strong>immutable</strong>.</p> 
   <p>What's so peculiar about bytes? Firstly, when printed, they look like a string in quotes with a prefix <code class="language-python">b</code>. This prefix is not a part of the actual data stored in the variable: it simply designates a bytes object. All the information contained in our bytes object is printed between quotes. </p> 
   <pre><code class="language-python">first_bytes = b'123'
@@ -53,7 +53,7 @@ print(one_ord)       # 49</code></pre>
   <pre><code class="language-python">characters = bytes([55, 255])
 print(characters)  # b'7\xff'</code></pre> 
   <p>You must have noticed that in the last example a bytes object was created in a way differing from the ones used before. If you wish to know more about all ways of creating bytes objects, check out the next topic named <em>Creating bytes.</em></p> 
-  <h2>Summary</h2> 
+  <h5>Summary</h5> 
   <ul> 
    <li>Python 3.x has immutable <code class="language-python">bytes</code> data type, used for representing strings as sequences of single bytes;</li> 
    <li><code class="language-python">bytes</code> objects consist of integers with values from 0 to 255 (inclusively);</li> 

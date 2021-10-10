@@ -5,71 +5,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2690860-8bff-4afe-ae3c-9c191a89d379" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Modifying frequencies for better results/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Modifying frequencies for better results/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Modifying frequencies for better results/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Most frequent words/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Most frequent words/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Most frequent words/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Nouns are keywords/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Nouns are keywords/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Nouns are keywords/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Text preprocessing pipeline/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Text preprocessing pipeline/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/Text preprocessing pipeline/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/lesson-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/key_terms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/news.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/test/news.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Key Terms Extraction/task/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/The result of tokenization/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/The result of tokenization/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/The result of tokenization/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/The result of tokenization/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Word tokens/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Word tokens/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Word tokens/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Word tokens/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Key Terms Extraction/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Tokenizing a particular sentence in the text/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Tokenizing a particular sentence in the text/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Tokenizing a particular sentence in the text/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/Tokenizing a particular sentence in the text/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/Topics/Tokenization/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/course-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Key Terms Extraction/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Key Terms Extraction/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/10 files/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/10 files/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/10 files/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/10 files/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Error/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Error/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Error/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Error/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Colors/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Colors/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Colors/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Colors/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/JSON input/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/JSON input/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/JSON input/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/JSON input/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Number of users/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Number of users/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Number of users/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Number of users/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Theory/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Theory/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Theory/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Theory/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Years and years/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Years and years/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Years and years/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/Years and years/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Json module/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Cryptocurrencies are the new black/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Cryptocurrencies are the new black/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Going global/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Going global/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Going global/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Going global/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/JSON and the Rates/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/JSON and the Rates/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/JSON and the Rates/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/JSON and the Rates/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Last but not least/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Last but not least/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/More interaction/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/More interaction/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Talking numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/Talking numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/task/cconverter/cconverter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/task/cconverter/cconverter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Currency Converter/task/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Full name/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Full name/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Rewrite/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Rewrite/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Yearly income/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/Yearly income/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/Context manager/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/Topics/section-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/Topics/section-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency Converter2/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Currency Converter2/course-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the hyperlink/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the paragraph/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the subtitles/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the title/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Get the title/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Health issues/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/BeautifulSoup  working with HTML/Theory/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Caesar cipher/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Caesar cipher/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Chr() application/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Chr() application/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Ord() application/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Ord() application/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Printable/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Printable/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Bytes basics/Theory/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Bytes slices/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Bytes slices/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Decypher a message/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Decypher a message/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Theory/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Theory/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/To_bytes()/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/To_bytes()/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Creating bytes/Zero bytes/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Creating bytes/Zero bytes/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Writing files/Animals/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Animals/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Writing files/Input/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Input/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Writing files/Solar system/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Solar system/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Writing files/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Writing files/Theory/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Theory/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Topics/Writing files/Travel/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Writing files/Travel/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Soup, Sweet Soup/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Beautiful Soup Ingredients/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/The Soup is Real/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Scraper/What the File/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/What the File/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/Wanna Talk to the Internet/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web Scraper/What the File/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/What the File/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Scraper/What the File/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web Scraper/What the File/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
