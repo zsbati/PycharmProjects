@@ -1,3 +1,6 @@
 content:
 - Inheritance
 - Method overriding
+- Collections module
+- Command line arguments
+- User-defined exceptions

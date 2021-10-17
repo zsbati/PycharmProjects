@@ -1,0 +1,35 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def check_word(word):
+        ...
+
+    def error_handling(word):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10225#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #2 of 6. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 8, in error_handling
+        print(check_word(word))
+      File "jailed_code", line 3, in check_word
+        raise NotWordError(word)
+    __main__.NotWordError: 0ld is not a word, sorry!
+
+    During handling of the above exception, another exception occurred:
+
+    Traceback (most recent call last):
+      File "jailed_code", line 27, in <module>
+        error_handling(_word)
+      File "jailed_code", line 9, in error_handling
+        except NotWordError(word) as err:
+    TypeError: catching classes that do not inherit from BaseException is not allowed
+  time: Sun, 17 Oct 2021 12:53:09 UTC
+record: -1
