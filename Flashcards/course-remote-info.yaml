@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/406082/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Wed, 20 Oct 2021 17:58:47 UTC
+update_date: Thu, 21 Oct 2021 19:49:55 UTC
 stages:
 - id: 673
   step: 10806
@@ -187,6 +187,8 @@ topics:
     theory_id: 13991
   - title: Data structures
     theory_id: 5161
+  - title: Introduction to logging
+    theory_id: 5538
   - title: Math functions
     theory_id: 6256
   - title: Sep and end arguments of print
@@ -197,6 +199,8 @@ topics:
     theory_id: 9253
   - title: Context manager
     theory_id: 8702
+  - title: Logging
+    theory_id: 15957
   - title: Flush and file arguments of print
     theory_id: 8006
   - title: Lambda functions
