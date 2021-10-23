@@ -45,6 +45,33 @@ def ask():
                             f'Wrong. The right answer is \"{flashcards[card]}\", but your definition is correct for \"' + correct_term + '\".')
 
 
+def export(file_name):
+    with open(file_name, 'w') as opened_file:
+        count = 0
+        for card in flashcards.keys():
+            opened_file.write(card + '\n')
+            count += 1
+            opened_file.write(flashcards[card] + '\n')
+            count += 1
+            cards = str(int(count / 2))
+        print(f'{cards} cards have been saved.\n')
+
+
+def read_in(file_name):
+    with open(file_name, 'r') as opened_file:
+        count = 0
+        for line in opened_file:
+            if count % 2 == 0:
+                card = line.strip()
+                count += 1
+            else:
+                definition = line.strip()
+                flashcards[card] = definition
+                count += 1
+        cards = str(int(count / 2))
+        print(f'{cards} cards have been loaded.\n')
+
+
 while True:
     action = input('Input the action (add, remove, import, export, ask, exit):\n')
     if action == 'exit':
@@ -56,3 +83,12 @@ while True:
         remove()
     if action == 'ask':
         ask()
+    if action == 'export':
+        file_name = input('File name:\n')
+        export(file_name)
+    if action == 'import':
+        file_name = input('File name:\n')
+        try:
+            read_in(file_name)
+        except:
+            print('File not found.\n')
