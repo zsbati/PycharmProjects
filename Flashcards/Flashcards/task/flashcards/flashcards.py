@@ -90,5 +90,5 @@ while True:
         file_name = input('File name:\n')
         try:
             read_in(file_name)
-        except:
+        except FileExistsError:
             print('File not found.\n')

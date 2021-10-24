@@ -401,6 +401,9 @@ files:
     if __name__ == "__main__":
         FlashcardsTest("flashcards.flashcards").run_tests()
   learner_created: false
+- name: flashcards/card_set
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/127/stages/678/implement#comment
 status: Unchecked
 record: -1
