@@ -10,3 +10,6 @@ content:
 - Methods and attributes
 - For loop
 - Lambda functions
+- Sep and end arguments of print
+- Iterators
+- Regexp quantifiers
